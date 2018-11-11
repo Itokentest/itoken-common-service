@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: itoken-eureka
+
+
+server:
+  port: 8761
+
+eureka:
+  instance:
+    hostname: http://192.168.91.128
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://192.168.91.128:8761/eureka/,http://${eureka.instance.hostname}:8861/eureka/,http://${eureka.instance.hostname}:8961/eureka/
+
