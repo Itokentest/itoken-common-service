@@ -18,6 +18,14 @@
     <inceptionYear>2018-Now</inceptionYear>
 
     <dependencies>
+        <!-- Project Begin -->
+        <dependency>
+            <groupId>com.funtl</groupId>
+            <artifactId>itoken-common</artifactId>
+            <version>${project.parent.version}</version>
+        </dependency>
+
+        <!-- Project End -->
 
         <!-- Spring Boot Begin -->
         <dependency>
@@ -72,7 +80,6 @@
             <scope>runtime</scope>
         </dependency>
         <!-- Database End -->
-
     </dependencies>
 
 </project>
