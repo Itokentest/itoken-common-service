@@ -19,6 +19,10 @@ spring:
       # MySQL 8.x: com.mysql.cj.jdbc.Driver
       driver-class-name: com.mysql.jdbc.Driver
 
+feign:
+  hystrix:
+    enabled: true
+
 server:
   port: 8501
 
