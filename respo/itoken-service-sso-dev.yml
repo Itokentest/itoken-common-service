@@ -7,6 +7,12 @@ spring:
         url: http://localhost:8084
   zipkin:
     base-url: http://localhost:9411
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
   datasource:
     druid:
       url: jdbc:mysql://47.107.157.226:3306/itoken-service-admin?useUnicode=true&characterEncoding=utf-8&useSSL=false
