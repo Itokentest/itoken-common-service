@@ -1,6 +1,6 @@
 spring:
   application:
-    name: itoken-service-admin
+    name: itoken-service-sso
   boot:
     admin:
       client:
