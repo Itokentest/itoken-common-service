@@ -30,7 +30,7 @@ feign:
     enabled: true
 
 server:
-  port: 8501
+  port: 8503
 
 mybatis:
     type-aliases-package: com.funtl.itoken.common.domain
